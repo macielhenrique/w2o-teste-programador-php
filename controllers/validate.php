@@ -45,13 +45,13 @@
 			break;
 
 			case "manager_colaborador":
-				$empresas = $manager->select_common("tb_colaborador",null, null, " ORDER BY id_colaborador DESC");
+				$colaboladores = $manager->select_common("tb_colaborador",null, null, " ORDER BY id_colaborador DESC");
 				include_once $GLOBALS['project_path']."/views/forms/colaborador/listar.php";
 			break;
 
 			case "update_colaborador":
 				$filtro['id_colaborador'] = $_GET['id'];
-				$emp = $manager->select_common("tb_colaborador",null,$filtro, " ORDER BY id_colaborador DESC")[0];
+				$col = $manager->select_common("tb_colaborador",null,$filtro, " ORDER BY id_colaborador DESC")[0];
 				include_once $GLOBALS['project_path']."/views/forms/colaborador/update.php";
 			break;
 

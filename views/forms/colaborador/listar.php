@@ -68,7 +68,7 @@
 				</thead>
 
 				<tbody>
-					<?php foreach($empresas as $c): ?>
+					<?php foreach($colaboladores as $c): ?>
 						<tr>
 							<td><?=$c['id_colaborador'];?></td>
 							<td><?=$c['colab_nome'];?></td>

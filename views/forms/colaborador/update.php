@@ -3,19 +3,19 @@
 	<div class="row">
 		<div class="col-md-8">
 		<label> Nome Completo </label><br>
-			<input type="text" value="<?=$emp['colab_nome'];?>" name="colab_nome" placeholder="Digite seu nome" required class="form-control">
+			<input type="text" value="<?=$col['colab_nome'];?>" name="colab_nome" placeholder="Digite seu nome" required class="form-control">
 			<br><br>
 		</div>				
 
 		<div class="col-md-4">
 			<label> Telefone: </label><br>
-			<input type="text" value="<?=$emp['colab_telefone'];?>" name="colab_telefone"  placeholder="Digite telefone" required class="form-control">
+			<input type="text" value="<?=$col['colab_telefone'];?>" name="colab_telefone"  placeholder="Digite telefone" required class="form-control">
 			<br><br>
 		</div>
 
 		<div class="col-md-4">
 			<label> Email: </label><br>
-			<input type="email" value="<?=$emp['colab_email'];?>" name="colab_email"  placeholder="Digite o email" required class="form-control">
+			<input type="email" value="<?=$col['colab_email'];?>" name="colab_email"  placeholder="Digite o email" required class="form-control">
 			<br><br>
 		</div>
 
@@ -28,7 +28,7 @@
 
 		<div class="col-md-2">
 			<label> data de nascimento: </label><br>
-			<input type="date" value="<?=$emp['data_nasc'];?>" name="data_nasc"   required class="form-control">
+			<input type="date" value="<?=$col['data_nasc'];?>" name="data_nasc"   required class="form-control">
 			<br><br>
 		</div>
 
